@@ -19,4 +19,17 @@ router.all("/", function (request, response) {
     response.render('userHome.ejs');
   });
 
+  router.get("/donations", function (request, response) {  
+    response.render('donations.ejs');
+  });
+
+  
+  router.get("/donate", function (request, response) {  
+    response.render('donate.ejs');
+  });
+
+  router.get("/donateForCampaign", function (request, response) {  
+    response.render('donateForCampaign.ejs');
+  });
+
   module.exports = router ;

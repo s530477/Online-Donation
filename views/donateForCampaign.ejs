@@ -1,0 +1,55 @@
+<% include headerUser %>
+
+<br><br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Donation Campaign: </span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Description</span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Beneficiary Name</span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Target Amount</span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Target Deadline</span>
+    </div>
+</div>
+<br>
+<hr>
+<form method="POST" action="/donateAmount">
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <span style="font-size: 15px;font-family: Arial, Helvetica, sans-serif">Donation Amount</span>
+            <input type="text" class="form-control" name="donationAmnt" placeholder="Enter Amount" required>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <button type="submit" class="btn btn-primary">Donate</button>
+    </div>
+</div>
+</form>
