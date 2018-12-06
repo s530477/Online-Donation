@@ -18,5 +18,12 @@ router.all("/", function (request, response) {
   router.get("/userHome", function (request, response) {  
     response.render('userHome.ejs');
   });
+  router.get("/rulesandregulations", function (request, response) {  
+    response.render('rulesandregulations.ejs');
+  });
+
+  router.get("/headerAdmin", function (request, response) {  
+    response.render('headerAdmin.ejs');
+  });
 
   module.exports = router ;
