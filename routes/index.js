@@ -18,6 +18,7 @@ router.all("/", function (request, response) {
   router.get("/userHome", function (request, response) {  
     response.render('userHome.ejs');
   });
+<<<<<<< HEAD
   router.get("/rulesandregulations", function (request, response) {  
     response.render('rulesandregulations.ejs');
   });
@@ -26,4 +27,9 @@ router.all("/", function (request, response) {
     response.render('headerAdmin.ejs');
   });
 
+=======
+  router.get("/adminLogin", function (request, response) {  
+    response.render('adminLogin.ejs');
+  });
+>>>>>>> 2656dd5982d84e703e84b7c74c1f92914093fa24
   module.exports = router ;
