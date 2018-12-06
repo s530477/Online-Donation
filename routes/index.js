@@ -18,5 +18,7 @@ router.all("/", function (request, response) {
   router.get("/userHome", function (request, response) {  
     response.render('userHome.ejs');
   });
-
+  router.get("/adminLogin", function (request, response) {  
+    response.render('adminLogin.ejs');
+  });
   module.exports = router ;
