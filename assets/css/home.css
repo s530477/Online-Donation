@@ -10,7 +10,7 @@ ul {
 li {
     float: left;
 }
-
+/* 
 li a {
     display: block;
     color: white;
@@ -18,14 +18,11 @@ li a {
     font-size: 20px;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
-
-
-li a:hover{
-    background-color: whitesmoke;
-    color: #111
-}
+/* li a:hover:not(.active) {
+    background-color: #111;
+} */
 
 .active {
     background-color: #006747;
@@ -86,4 +83,7 @@ input{
 #donation{
     font-size:50px;
     font-style: oblique;
+}
+.nav ul li a:hover {
+    text-decoration: none;
 }

@@ -18,6 +18,13 @@ router.all("/", function (request, response) {
   router.get("/userHome", function (request, response) {  
     response.render('userHome.ejs');
   });
+  router.get("/rulesandregulations", function (request, response) {  
+    response.render('rulesandregulations.ejs');
+  });
+
+  router.get("/headerAdmin", function (request, response) {  
+    response.render('headerAdmin.ejs');
+  });
 
   router.get("/donations", function (request, response) {  
     response.render('donations.ejs');
@@ -32,4 +39,7 @@ router.all("/", function (request, response) {
     response.render('donateForCampaign.ejs');
   });
 
+  router.get("/adminLogin", function (request, response) {  
+    response.render('adminLogin.ejs');
+  });
   module.exports = router ;
