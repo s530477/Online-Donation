@@ -46,4 +46,14 @@ router.get("/newDonationCampaign", function (request, response) {
 router.get("/adminLogin", function (request, response) {
   response.render('adminLogin.ejs');
 });
+
+router.get("/enterAmount", function (request, response) {
+  response.render('enterAmount.ejs');
+});
+
+router.get("/payment", function (request, response) {
+  response.render('payment.ejs');
+});
+
+
 module.exports = router;
