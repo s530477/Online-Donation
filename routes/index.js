@@ -49,4 +49,11 @@ router.get("/adminLogin", function (request, response) {
 router.get("/users", function (request, response) {
   response.render('usersList.ejs');
 });
+router.get("/adduser", function (request, response) {
+  response.render('addUser.ejs');
+});
+router.get("/campaings", function (request, response) {
+  response.render('campaings.ejs');
+});
+
 module.exports = router;
