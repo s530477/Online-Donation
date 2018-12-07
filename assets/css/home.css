@@ -10,7 +10,7 @@ ul {
 li {
     float: left;
 }
-/* 
+
 li a {
     display: block;
     color: white;
@@ -18,11 +18,11 @@ li a {
     font-size: 20px;
     padding: 14px 16px;
     text-decoration: none;
-} */
+}
 
-/* li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #111;
-} */
+}
 
 .active {
     background-color: #006747;
