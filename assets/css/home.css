@@ -10,7 +10,8 @@ li {
     float: left;
 }
 
-li a {
+
+/* li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,9 +24,11 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+*/
 .active {
-    background-color: #006747;
-}
+    background-color: whitesmoke;
+    color: black;
+} 
 
 
 #courses {
