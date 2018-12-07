@@ -3,8 +3,37 @@
 <div class="row">
     <div class="col-md-5"></div>
     <div class="col-md-5">
-        <button type="submit" class="btn btn-primary btn-lg" onclick="location.href='/newDonationCampaign'">Start
+        <button type="submit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Start
             Donation Campaign</button>
+             <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Rules And Regulations</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           <p> The opportunity to donate or make a purchase that benefits acharity is only available online. Only a small number of donations (or sales transactions leading to donations) are generated (or likely to be generated) from the state. </p>
+          <p> <ol> <li>The fundraising activities are short term.</li> <li>The charity has no plans to actively target residents of that state now or in the foreseeable future. </li></ol></p>
+         <br><br> <p> The charity’s role is largely passive (this is particularly the case with peer-to-peer fundraising activities and charitable sales promotions).</p>
+         <input type="checkbox" name="vehicle3" value="I agree to the rules and regulations" > I agree to the rules and regulations<br><br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="location.href='/newDonationCampaign'" align="center">Next</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
     </div>
 </div>
 <br><br>
