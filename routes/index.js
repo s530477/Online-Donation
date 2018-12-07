@@ -29,6 +29,14 @@ router.get("/headerAdmin", function (request, response) {
 router.get("/donations", function (request, response) {
   response.render('donations.ejs');
 });
+router.get("/donationCampaigns", function (request, response) {
+  response.render('donationCampaigns.ejs');
+});
+
+
+router.get("/profile", function (request, response) {
+  response.render('profile.ejs');
+});
 
 
 router.get("/donate", function (request, response) {
@@ -46,6 +54,7 @@ router.get("/newDonationCampaign", function (request, response) {
 router.get("/adminLogin", function (request, response) {
   response.render('adminLogin.ejs');
 });
+
 
 router.get("/enterAmount", function (request, response) {
   response.render('enterAmount.ejs');
