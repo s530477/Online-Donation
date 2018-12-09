@@ -74,4 +74,8 @@ router.get("/campaings", function (request, response) {
   response.render('campaings.ejs');
 });
 
+router.get("/contact", function (request, response) {
+  response.render('contact.ejs');
+});
+
 module.exports = router;
